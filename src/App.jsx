@@ -496,7 +496,7 @@ const AssalamServicesPro = () => {
             <div className="hidden md:block relative perspective-1000">
                 <div className="relative z-10 transform rotate-y-[-12deg] rotate-x-[5deg] hover:rotate-0 transition-transform duration-700 ease-out preserve-3d">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-8 border-white/5 bg-gray-800">
-                    <img src="hero.png" alt="Hero" className="w-full h-auto object-cover transform scale-105" onError={(e) => {e.target.style.display='none'; e.target.parentNode.innerHTML = '<div class="h-64 bg-gray-800 flex items-center justify-center text-gray-500">Hero Image</div>'}}/>
+                    <img src="hero.gif" alt="Hero" className="w-full h-auto object-cover transform scale-105" onError={(e) => {e.target.style.display='none'; e.target.parentNode.innerHTML = '<div class="h-64 bg-gray-800 flex items-center justify-center text-gray-500">Hero Image</div>'}}/>
                     <div className="absolute inset-0 bg-gradient-to-t from-blue-900/60 to-transparent"></div>
                 </div>
                 </div>
